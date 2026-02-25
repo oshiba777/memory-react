@@ -1,9 +1,8 @@
 import'./Button.css'
 
-export default function Button (props){
-    console.log(props)
+export default function Button ({title = "кнопка", color = "red"}){
     return (
-        <button className={props.color}>{props.title}</button>
+        <button className={color}>{title}</button>
     )
 }
 

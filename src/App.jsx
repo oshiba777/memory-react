@@ -1,5 +1,6 @@
 import './App.css'
 import Button from './components/Button/Button'
+import Grid from './components/Grid/Grid'
 
 function App() {
   return (
@@ -10,8 +11,10 @@ function App() {
       <main>
         <Button title='заказакть' color="red" rounded="false" />
          <Button  title='купить' color="blue"/>
-          <Button  title='войти' color="green"/>
+          <Button  title='войти' />
           <button>моя кнопка</button>
+
+        <Grid/>
       </main>
       <footer>
         <p>&cope; Сухоплюева Екатерина, 2026 г.</p>
