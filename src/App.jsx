@@ -1,25 +1,27 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Button from './components/Button/Button'
-import Grid from './components/Grid/Grid'
+import PageMain from './pages/PageMain/PageMain'
+import PageGame from './pages/PageGame/PageGame'
+import Page404 from './pages/Page404/Page404'
+import List from './components/List'
+import Itetm from './components/Item'
+import PageImages from './pages/PageImages/PageImages'
 
 function App() {
   return (
-    <div className='container'>
-      <header>
-        <h1>Игра мемори</h1>
-      </header>
-      <main>
-        <Button title='заказакть' color="red" rounded="false" />
-         <Button  title='купить' color="blue"/>
-          <Button  title='войти' />
-          <button>моя кнопка</button>
+    <BrowserRouter>
+    <Routes>
+     <Route path='/' element={<PageMain />} />
+     <Route path='/game' element={<PageGame />} />
 
-        <Grid/>
-      </main>
-      <footer>
-        <p>&cope; Сухоплюева Екатерина, 2026 г.</p>
-      </footer>
-    </div>
+     <Route path='/images' element={ <PageImages/>}>
+     <Route path='list' element={<List/>} />
+     <Route path='item' element={ <Itetm/>} />
+     </Route>
+
+     <Route path='/*' element={<Page404 />} /> 
+    </Routes>
+    </BrowserRouter>
   )
 }
 

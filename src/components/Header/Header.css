@@ -1,0 +1,19 @@
+header{
+    background: #ffdd1a;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.main-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.link--active{
+    color: #ff1ab3;
+    font-weight: bold;
+    
+}
