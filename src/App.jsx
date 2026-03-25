@@ -16,7 +16,7 @@ function App() {
 
      <Route path='/images' element={ <PageImages/>}>
      <Route path='list' element={<List/>} />
-     <Route path='item' element={ <Itetm/>} />
+     <Route path='item/:id' element={ <Itetm/>} />
      </Route>
 
      <Route path='/*' element={<Page404 />} /> 
