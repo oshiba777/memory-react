@@ -1,7 +1,7 @@
 import { useState } from "react";
-import images from "../data.json"
 
-export default function useGame(){
+
+export default function useGame(images){
     //чписок отгаданых карточек
     const [finishedItems, setfinishedItems] = useState([]) //выбрать из списка
     //счестчик шагов
