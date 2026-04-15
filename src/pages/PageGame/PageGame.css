@@ -1,0 +1,12 @@
+.steps{
+    color: #fc2364;
+    font-size: 30px;
+    background: #ffffff;
+    max-width: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+}

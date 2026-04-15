@@ -3,6 +3,7 @@ import Button from "../../components/Button/Button";
 import Grid from "../../components/Grid/Grid";
 import Header from "../../components/Header/Header";
 import useGame from "../../components/useGame";
+import "./PageGame.css"
 
 import data from "../../data.json"
 import Modal from "../../components/Modal/Modal";

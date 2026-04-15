@@ -2,11 +2,12 @@
     position: relative;
     width: 250px;
     height: 250px;
-    border: 5px solid lavender;
+    /* border: 5px solid rgb(93, 4, 175); */
     transform-style: preserve-3d;
-    border-radius: 10px;
-    box-shadow: rgb(112, 112, 175) 0 0 6px 2px;
+    border-radius: 37px;
+    box-shadow: rgb(67, 144, 207) 0 0 6px 2px;
     transition: 0.5s transform ease-in-out;
+    background: #fffdfa;
     
 }
 
@@ -17,14 +18,16 @@
     border-radius: 10px;
     transform: rotateY(180deg);
     backface-visibility: hidden;
+    border-radius: 30px;
+      border: 5px solid #4a10b6;
 }
 
 .card::after {
     content: "";
     display: block;
-    width: 240px;
-    height: 240px;
-    background-image: url(../img/card-background.webp);
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/card-background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,6 +35,8 @@
     left:0;
     position: absolute;
     backface-visibility: hidden;
+    border: 5px solid #fc2364;
+     border-radius: 30px;
 }
 
 .card-show {
@@ -44,4 +49,5 @@
 
 .card-finish{
      transform: rotateY(180deg);
+     
 }

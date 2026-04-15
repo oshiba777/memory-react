@@ -6,3 +6,16 @@
     gap: 50px;
     margin: 50px auto;
 }
+
+@media (max-width:340px){
+    .grid{
+        grid-template-columns: repeat(2, 250px);
+    }
+   
+}
+
+@media (max-width:500px){
+    .grid{
+        grid-template-columns: repeat(3, 250px);
+    }
+}
