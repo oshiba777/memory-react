@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     background: #fffcfa;
+    border-radius: 15px;
     max-width: 400px;
     padding: 50px;
 }
@@ -36,8 +37,59 @@
     padding-right: 15px;
     border-radius: 8px;
 }
-.btn_rules:hover{
+.btn_rules:focus{
    color: #fc2364;
     border:#fc2364 solid 3px;
-    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+footer p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .title_rules{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    .blok_rules li{
+        font-size: 20px;
+    }
+    .btn_rules{
+        font-size: 20px;
+         border:#4a10b6 solid 2px;
+    }
+}
+
+@media (max-width: 900px) {
+.grid {
+    grid-template-columns: repeat(2, 250px);
+    gap: 30px;
+}
+}
+
+@media (max-width: 600px) {
+    .title_rules{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .blok_rules li{
+        font-size: 20px;
+    }
+    .btn_rules{
+        font-size: 20px;
+         border:#4a10b6 solid 2px;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+
 }

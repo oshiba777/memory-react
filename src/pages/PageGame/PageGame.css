@@ -10,3 +10,73 @@
     margin-top: 20px;
     padding: 5px;
 }
+
+
+@media (max-width: 1200px) {
+.grid {
+    grid-template-columns: repeat(3, 250px);
+    gap: 40px;
+}
+ header {
+        padding-left: 70px;
+        padding-right: 75px;
+        gap: 10px;
+        
+    }
+}
+
+
+@media (max-width: 900px) {
+.grid {
+    grid-template-columns: repeat(2, 250px);
+    gap: 30px;
+    margin: 0;
+}
+.container{
+    max-width: 100%;
+}
+}
+
+@media (max-width: 750px) {
+   
+    header {
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    .main-menu ul {
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    
+    .main-menu li {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        border:#4a10b6 solid 2px;
+    }
+    
+    .main-menu a {
+        font-size: 18px;
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+.grid {
+    grid-template-columns: 250px;
+    gap: 30px;
+    padding: 0 15px;
+}
+}

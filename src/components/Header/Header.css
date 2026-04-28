@@ -1,14 +1,11 @@
 header{
     background: #ffdd1a;
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     gap: 35px;
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    /* left: 0;
-    right: 0; */
 }
 
 .main-menu ul{
@@ -37,21 +34,66 @@ h1{
     color: #4a10b6;
     font-weight: 1000;
     font-size: 50px;
+    margin: 0;
 }
 
 .main-menu a{
-    /* color:#4a10b6; */
     font-weight: bolder;
     font-size: 25px;
     text-decoration: none;
 }
 
-@media (max-width:340px){
-     .grid{
-        grid-template-columns: repeat(2, 250px);
+@media (max-width: 1200px) {
+    body {
+        max-width: 1200px;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
-    .main-menu li{
-        font-size: 30px;
+
+     header {
+        padding-left: 70px;
+        padding-right: 75px;
+        gap: 10px;
+        
+    }
+
+}
+
+@media (max-width: 750px) {
+    body {
+        /* max-width: 750px; */
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
    
+    header {
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    .main-menu ul {
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    
+    .main-menu li {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        border:#4a10b6 solid 2px;
+    }
+    
+    .main-menu a {
+        font-size: 16px;
+    }
 }

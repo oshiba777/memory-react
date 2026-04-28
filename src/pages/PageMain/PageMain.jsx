@@ -7,7 +7,7 @@ export default function PageMain() {
         <div>
             <Header/>
             <main className="blok_rules">
-                <p className="title_rules">правила игры:</p>
+                <p className="title_rules">Правила игры:</p>
                 <ol className="rules">
                     <li>правило 1</li>
                     <li>правило 2</li>
@@ -15,9 +15,9 @@ export default function PageMain() {
                 </ol>
                 <Link to="/game" className="btn_rules"> Начать играть</Link>
             </main>
-            {/* <footer>
+            <footer>
                 <p>&cope; Сухоплюева Екатерина, 2026 г.</p>
-            </footer> */}
+            </footer>
         </div>
     );
 }
