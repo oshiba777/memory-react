@@ -79,6 +79,10 @@ h1{
         font-size: 28px;
     }
 
+    .main-menu{
+        width: 100%;
+    }
+    
     .main-menu ul {
         gap: 10px;
         padding: 0;
@@ -87,10 +91,7 @@ h1{
     }
     
     .main-menu li {
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 14px;
-        border:#4a10b6 solid 2px;
+        font-size: 200px;
     }
     
     .main-menu a {

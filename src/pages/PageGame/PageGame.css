@@ -9,6 +9,9 @@
     align-items: center;
     margin-top: 20px;
     padding: 5px;
+    margin-left: auto; 
+    margin-right: auto;
+
 }
 
 
@@ -31,6 +34,8 @@
     grid-template-columns: repeat(2, 250px);
     gap: 30px;
     margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .container{
     max-width: 100%;
@@ -48,7 +53,7 @@
     }
     
     h1 {
-        font-size: 28px;
+        font-size: 60px;
     }
 
     .main-menu ul {
@@ -61,12 +66,12 @@
     .main-menu li {
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 14px;
+        font-size: 4px;
         border:#4a10b6 solid 2px;
     }
     
     .main-menu a {
-        font-size: 18px;
+        font-size: 30px;
     }
 }
 
@@ -80,3 +85,4 @@
     padding: 0 15px;
 }
 }
+
