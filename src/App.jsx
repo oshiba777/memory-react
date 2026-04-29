@@ -9,7 +9,7 @@ import PageImages from './pages/PageImages/PageImages'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename ='/memory-react' >
     <Routes>
      <Route path='/' element={<PageMain />} />
      <Route path='/game' element={<PageGame />} />
@@ -19,7 +19,7 @@ function App() {
      <Route path='item/:id' element={ <Itetm/>} />
      </Route>
 
-     <Route path='/*' element={<Page404 />} /> 
+     <Route path='*' element={<Page404 />} /> 
     </Routes>
     </BrowserRouter>
   )

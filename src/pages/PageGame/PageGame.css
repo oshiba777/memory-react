@@ -20,18 +20,13 @@
     grid-template-columns: repeat(3, 250px);
     gap: 40px;
 }
- header {
-        padding-left: 70px;
-        padding-right: 75px;
-        gap: 10px;
-        
-    }
+
 }
 
 
 @media (max-width: 900px) {
 .grid {
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(3, 200px);
     gap: 30px;
     margin: 0;
     margin-top: 50px;
@@ -43,6 +38,13 @@
 }
 
 @media (max-width: 750px) {
+    .grid {
+    grid-template-columns: repeat(3, 165px);
+    gap: 25px;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
    
     header {
         padding-left: 15px;
@@ -53,7 +55,51 @@
     }
     
     h1 {
-        font-size: 60px;
+        font-size: 38px;
+    }
+
+    .main-menu ul {
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    
+    .main-menu li {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 4px;
+        border:#4a10b6 solid 2px;
+    }
+    
+    .main-menu a {
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+.grid {
+   grid-template-columns: repeat(2, 170px);
+    gap: 25px;
+    padding: 0 15px;
+}
+}
+
+@media (max-width: 450px) {
+   
+    header {
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 45px;
     }
 
     .main-menu ul {
@@ -73,16 +119,10 @@
     .main-menu a {
         font-size: 30px;
     }
+
+    footer p{
+        font-size: 25px;
+    }
 }
 
-
-
-
-@media (max-width: 600px) {
-.grid {
-    grid-template-columns: 250px;
-    gap: 30px;
-    padding: 0 15px;
-}
-}
 

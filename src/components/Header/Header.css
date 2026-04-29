@@ -62,7 +62,6 @@ h1{
 
 @media (max-width: 750px) {
     body {
-        /* max-width: 750px; */
         overflow-x: hidden;
         margin: 0;
         padding: 0;
@@ -98,3 +97,38 @@ h1{
         font-size: 16px;
     }
 }
+
+
+@media (max-width: 400px) {
+  
+    header {
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+
+    .main-menu{
+        width: 100%;
+    }
+    
+    .main-menu ul {
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    
+    .main-menu li {
+        font-size: 200px;
+    }
+    
+    .main-menu a {
+        font-size: 1px;
+    }
+}
+
