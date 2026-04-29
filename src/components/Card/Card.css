@@ -27,7 +27,7 @@
     display: block;
     width: 250px;
     height: 250px;
-    background-image: url(../img/card-background.svg);
+   background-image: url('img/card-background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
